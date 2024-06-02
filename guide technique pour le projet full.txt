@@ -1,0 +1,9 @@
+guide technique pour le projet full-stack CRUD app:
+*npm init -y : installer les dépendences
+*npm install mysql express 
+*npx create-react-app nom-app 
+*npm install cors : cors est la bibliothèque qui va permettre notre front end to access their api 
+* pour exécuter le fichier server.js:node server.js
+*La relation entre phpMyAdmin et MySQL est donc celle d'un outil de gestion et d'administration (phpMyAdmin) et du système de gestion de base de données sous-jacent (MySQL).
+*pour commencer l'app react: npm start
+*pour accéder à phpmyadmin:http://localhost/phpmyadmin/

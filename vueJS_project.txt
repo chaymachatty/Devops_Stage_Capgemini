@@ -1,0 +1,11 @@
+1-installer vueJs CLI:
+npm install -g @vue/cli
+2-créer un projet vuejs:
+vue create app_name
+3-run the project:
+npm run serve
+grid : Cette classe transforme l'élément en conteneur de grille. Cela signifie que tous les éléments enfants de ce conteneur seront alignés selon les règles de la grille CSS.
+grid-cols-1 : Par défaut, la grille aura une seule colonne. Cela s'applique aux petits écrans (taille de mobile).
+md:grid-cols-2 : À partir de la taille d'écran md (généralement 768px ou plus), la grille aura deux colonnes. Cela s'applique aux écrans moyens (comme les tablettes).
+lg:grid-cols-3 : À partir de la taille d'écran lg (généralement 1024px ou plus), la grille aura trois colonnes. Cela s'applique aux grands écrans (comme les ordinateurs de bureau).
+gap-4 : Cette classe ajoute un espace de 1rem (16px) entre les éléments de la grille, horizontalement et verticalement
